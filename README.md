@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Guide to generate project 
+
+# Create module core
+`ng generate module core`
+
+# Component header
+`ng generate component header --path=src/app/core --module=core --export`
+
+# module shared (rehusable)
+`ng generate module shared`
+
+# Componet footer
+`ng generate component footer --path=src/app/shared --module=shared --export`
